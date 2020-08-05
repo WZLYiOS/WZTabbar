@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name             = 'WZTabbar'
   s.version          = '0.0.4'
-  s.summary          = '系统tabbar'
+  s.summary          = '自定义系统tabbar'
 
   s.description      = <<-DESC
     我主良缘技有限公司,iOS项目组tabbar组件.
