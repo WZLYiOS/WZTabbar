@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CEEB890F97B4D794974925F /* Pods_WZTabbarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8574EAA1474F4B4898093ACC /* Pods_WZTabbarTests.framework */; };
+		C276E87138717A035C90399C /* Pods_WZTabbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51268DAE956CC7142024054 /* Pods_WZTabbar.framework */; };
+		D03A179F23A1D90000346B01 /* UITabBar+WZCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A179E23A1D90000346B01 /* UITabBar+WZCustom.m */; };
+		D03A17BB23A1DA1F00346B01 /* tabbar_community.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17A223A1DA1F00346B01 /* tabbar_community.json */; };
+		D03A17BC23A1DA1F00346B01 /* tabbar_dynamics_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17A423A1DA1F00346B01 /* tabbar_dynamics_img_0.png */; };
+		D03A17BD23A1DA1F00346B01 /* dynamic_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17A523A1DA1F00346B01 /* dynamic_img_0.png */; };
+		D03A17BE23A1DA1F00346B01 /* love_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17A823A1DA1F00346B01 /* love_img_0.png */; };
+		D03A17BF23A1DA1F00346B01 /* tabbar_love.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17A923A1DA1F00346B01 /* tabbar_love.json */; };
+		D03A17C023A1DA1F00346B01 /* person_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17AC23A1DA1F00346B01 /* person_img_0.png */; };
+		D03A17C123A1DA1F00346B01 /* tabbar_person.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17AD23A1DA1F00346B01 /* tabbar_person.json */; };
+		D03A17C223A1DA1F00346B01 /* mes_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17B023A1DA1F00346B01 /* mes_img_0.png */; };
+		D03A17C323A1DA1F00346B01 /* tabbar_mes.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17B123A1DA1F00346B01 /* tabbar_mes.json */; };
+		D03A17C423A1DA1F00346B01 /* tabbar_search.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17B323A1DA1F00346B01 /* tabbar_search.json */; };
+		D03A17C523A1DA1F00346B01 /* search_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17B523A1DA1F00346B01 /* search_img_0.png */; };
+		D03A17C623A1DA1F00346B01 /* find_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D03A17B823A1DA1F00346B01 /* find_img_0.png */; };
+		D03A17C723A1DA1F00346B01 /* find.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17B923A1DA1F00346B01 /* find.json */; };
+		D03A17C823A1DA1F00346B01 /* tabbar_home_ios.json in Resources */ = {isa = PBXBuildFile; fileRef = D03A17BA23A1DA1F00346B01 /* tabbar_home_ios.json */; };
+		D0C33AB0239E1CB4009815AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C33AAF239E1CB4009815AC /* AppDelegate.m */; };
+		D0C33AB6239E1CB4009815AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C33AB5239E1CB4009815AC /* ViewController.m */; };
+		D0C33AB9239E1CB4009815AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C33AB7239E1CB4009815AC /* Main.storyboard */; };
+		D0C33ABB239E1CB5009815AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C33ABA239E1CB5009815AC /* Assets.xcassets */; };
+		D0C33ABE239E1CB5009815AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C33ABC239E1CB5009815AC /* LaunchScreen.storyboard */; };
+		D0C33AC1239E1CB5009815AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C33AC0239E1CB5009815AC /* main.m */; };
+		D0C33ACB239E1CB5009815AC /* WZTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C33ACA239E1CB5009815AC /* WZTabbarTests.m */; };
+		D0C33AD8239E203A009815AC /* WZTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C33AD7239E203A009815AC /* WZTabbarViewController.m */; };
+		D0C33AE7239F42C1009815AC /* WZMessageTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C33AE6239F42C1009815AC /* WZMessageTabbarItem.m */; };
+		D0C438A923A9DB6B00D8E148 /* demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C438A823A9DB6B00D8E148 /* demo1ViewController.m */; };
+		D0C438AC23A9F78500D8E148 /* WZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C438AB23A9F78500D8E148 /* WZTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C33AC7239E1CB5009815AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C33AA3239E1CB4009815AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C33AAA239E1CB4009815AC;
+			remoteInfo = WZTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40FBB3C4A52329008FCCE2B0 /* Pods-WZTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZTabbar.release.xcconfig"; path = "Target Support Files/Pods-WZTabbar/Pods-WZTabbar.release.xcconfig"; sourceTree = "<group>"; };
+		8574EAA1474F4B4898093ACC /* Pods_WZTabbarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZTabbarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896DD16897B3B57D87B6EE02 /* Pods-WZTabbarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZTabbarTests.debug.xcconfig"; path = "Target Support Files/Pods-WZTabbarTests/Pods-WZTabbarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E08C9721F1B0CEB59A55CB0 /* Pods-WZTabbarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZTabbarTests.release.xcconfig"; path = "Target Support Files/Pods-WZTabbarTests/Pods-WZTabbarTests.release.xcconfig"; sourceTree = "<group>"; };
+		A51268DAE956CC7142024054 /* Pods_WZTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03A179D23A1D90000346B01 /* UITabBar+WZCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+WZCustom.h"; sourceTree = "<group>"; };
+		D03A179E23A1D90000346B01 /* UITabBar+WZCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+WZCustom.m"; sourceTree = "<group>"; };
+		D03A17A223A1DA1F00346B01 /* tabbar_community.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_community.json; sourceTree = "<group>"; };
+		D03A17A423A1DA1F00346B01 /* tabbar_dynamics_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_dynamics_img_0.png; sourceTree = "<group>"; };
+		D03A17A523A1DA1F00346B01 /* dynamic_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dynamic_img_0.png; sourceTree = "<group>"; };
+		D03A17A823A1DA1F00346B01 /* love_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love_img_0.png; sourceTree = "<group>"; };
+		D03A17A923A1DA1F00346B01 /* tabbar_love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_love.json; sourceTree = "<group>"; };
+		D03A17AC23A1DA1F00346B01 /* person_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_img_0.png; sourceTree = "<group>"; };
+		D03A17AD23A1DA1F00346B01 /* tabbar_person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_person.json; sourceTree = "<group>"; };
+		D03A17B023A1DA1F00346B01 /* mes_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mes_img_0.png; sourceTree = "<group>"; };
+		D03A17B123A1DA1F00346B01 /* tabbar_mes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_mes.json; sourceTree = "<group>"; };
+		D03A17B323A1DA1F00346B01 /* tabbar_search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_search.json; sourceTree = "<group>"; };
+		D03A17B523A1DA1F00346B01 /* search_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_img_0.png; sourceTree = "<group>"; };
+		D03A17B823A1DA1F00346B01 /* find_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find_img_0.png; sourceTree = "<group>"; };
+		D03A17B923A1DA1F00346B01 /* find.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = find.json; sourceTree = "<group>"; };
+		D03A17BA23A1DA1F00346B01 /* tabbar_home_ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_home_ios.json; sourceTree = "<group>"; };
+		D0C33AAB239E1CB4009815AC /* WZTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C33AAE239E1CB4009815AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0C33AAF239E1CB4009815AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0C33AB4239E1CB4009815AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0C33AB5239E1CB4009815AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0C33AB8239E1CB4009815AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C33ABA239E1CB5009815AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C33ABD239E1CB5009815AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C33ABF239E1CB5009815AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C33AC0239E1CB5009815AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C33AC6239E1CB5009815AC /* WZTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C33ACA239E1CB5009815AC /* WZTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZTabbarTests.m; sourceTree = "<group>"; };
+		D0C33ACC239E1CB5009815AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C33AD6239E203A009815AC /* WZTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZTabbarViewController.h; sourceTree = "<group>"; };
+		D0C33AD7239E203A009815AC /* WZTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZTabbarViewController.m; sourceTree = "<group>"; };
+		D0C33AE5239F42C1009815AC /* WZMessageTabbarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZMessageTabbarItem.h; sourceTree = "<group>"; };
+		D0C33AE6239F42C1009815AC /* WZMessageTabbarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZMessageTabbarItem.m; sourceTree = "<group>"; };
+		D0C438A723A9DB6B00D8E148 /* demo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo1ViewController.h; sourceTree = "<group>"; };
+		D0C438A823A9DB6B00D8E148 /* demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo1ViewController.m; sourceTree = "<group>"; };
+		D0C438AA23A9F78500D8E148 /* WZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZTabBar.h; sourceTree = "<group>"; };
+		D0C438AB23A9F78500D8E148 /* WZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZTabBar.m; sourceTree = "<group>"; };
+		EC8366097EBF56C33B88A343 /* Pods-WZTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZTabbar.debug.xcconfig"; path = "Target Support Files/Pods-WZTabbar/Pods-WZTabbar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C33AA8239E1CB4009815AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C276E87138717A035C90399C /* Pods_WZTabbar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C33AC3239E1CB5009815AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEEB890F97B4D794974925F /* Pods_WZTabbarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8E347B63C4859B18453783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51268DAE956CC7142024054 /* Pods_WZTabbar.framework */,
+				8574EAA1474F4B4898093ACC /* Pods_WZTabbarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5E98A96ACF8A9825EEF2ACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC8366097EBF56C33B88A343 /* Pods-WZTabbar.debug.xcconfig */,
+				40FBB3C4A52329008FCCE2B0 /* Pods-WZTabbar.release.xcconfig */,
+				896DD16897B3B57D87B6EE02 /* Pods-WZTabbarTests.debug.xcconfig */,
+				9E08C9721F1B0CEB59A55CB0 /* Pods-WZTabbarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D03A179C23A1D90000346B01 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0C438AA23A9F78500D8E148 /* WZTabBar.h */,
+				D0C438AB23A9F78500D8E148 /* WZTabBar.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D03A17A023A1DA1F00346B01 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17A123A1DA1F00346B01 /* dynamic */,
+				D03A17A623A1DA1F00346B01 /* love */,
+				D03A17AA23A1DA1F00346B01 /* person */,
+				D03A17AE23A1DA1F00346B01 /* mes */,
+				D03A17B223A1DA1F00346B01 /* search */,
+				D03A17B623A1DA1F00346B01 /* find */,
+				D03A17BA23A1DA1F00346B01 /* tabbar_home_ios.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		D03A17A123A1DA1F00346B01 /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17A223A1DA1F00346B01 /* tabbar_community.json */,
+				D03A17A323A1DA1F00346B01 /* images */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		D03A17A323A1DA1F00346B01 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17A423A1DA1F00346B01 /* tabbar_dynamics_img_0.png */,
+				D03A17A523A1DA1F00346B01 /* dynamic_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D03A17A623A1DA1F00346B01 /* love */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17A723A1DA1F00346B01 /* images */,
+				D03A17A923A1DA1F00346B01 /* tabbar_love.json */,
+			);
+			path = love;
+			sourceTree = "<group>";
+		};
+		D03A17A723A1DA1F00346B01 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17A823A1DA1F00346B01 /* love_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D03A17AA23A1DA1F00346B01 /* person */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17AB23A1DA1F00346B01 /* images */,
+				D03A17AD23A1DA1F00346B01 /* tabbar_person.json */,
+			);
+			path = person;
+			sourceTree = "<group>";
+		};
+		D03A17AB23A1DA1F00346B01 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17AC23A1DA1F00346B01 /* person_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D03A17AE23A1DA1F00346B01 /* mes */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17AF23A1DA1F00346B01 /* images */,
+				D03A17B123A1DA1F00346B01 /* tabbar_mes.json */,
+			);
+			path = mes;
+			sourceTree = "<group>";
+		};
+		D03A17AF23A1DA1F00346B01 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17B023A1DA1F00346B01 /* mes_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D03A17B223A1DA1F00346B01 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17B323A1DA1F00346B01 /* tabbar_search.json */,
+				D03A17B423A1DA1F00346B01 /* images */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		D03A17B423A1DA1F00346B01 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17B523A1DA1F00346B01 /* search_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D03A17B623A1DA1F00346B01 /* find */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17B723A1DA1F00346B01 /* images */,
+				D03A17B923A1DA1F00346B01 /* find.json */,
+			);
+			path = find;
+			sourceTree = "<group>";
+		};
+		D03A17B723A1DA1F00346B01 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03A17B823A1DA1F00346B01 /* find_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D0C33AA2239E1CB4009815AC = {
+			isa = PBXGroup;
+			children = (
+				D0C33AAD239E1CB4009815AC /* WZTabbar */,
+				D0C33AC9239E1CB5009815AC /* WZTabbarTests */,
+				D0C33AAC239E1CB4009815AC /* Products */,
+				A5E98A96ACF8A9825EEF2ACB /* Pods */,
+				0D8E347B63C4859B18453783 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C33AAC239E1CB4009815AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C33AAB239E1CB4009815AC /* WZTabbar.app */,
+				D0C33AC6239E1CB5009815AC /* WZTabbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C33AAD239E1CB4009815AC /* WZTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D03A179C23A1D90000346B01 /* Core */,
+				D0C33AAE239E1CB4009815AC /* AppDelegate.h */,
+				D0C33AAF239E1CB4009815AC /* AppDelegate.m */,
+				D03A179D23A1D90000346B01 /* UITabBar+WZCustom.h */,
+				D03A179E23A1D90000346B01 /* UITabBar+WZCustom.m */,
+				D0C33AB4239E1CB4009815AC /* ViewController.h */,
+				D0C33AB5239E1CB4009815AC /* ViewController.m */,
+				D0C33AD6239E203A009815AC /* WZTabbarViewController.h */,
+				D0C33AD7239E203A009815AC /* WZTabbarViewController.m */,
+				D0C33AE5239F42C1009815AC /* WZMessageTabbarItem.h */,
+				D0C33AE6239F42C1009815AC /* WZMessageTabbarItem.m */,
+				D0C438A723A9DB6B00D8E148 /* demo1ViewController.h */,
+				D0C438A823A9DB6B00D8E148 /* demo1ViewController.m */,
+				D03A17A023A1DA1F00346B01 /* Json */,
+				D0C33AB7239E1CB4009815AC /* Main.storyboard */,
+				D0C33ABA239E1CB5009815AC /* Assets.xcassets */,
+				D0C33ABC239E1CB5009815AC /* LaunchScreen.storyboard */,
+				D0C33ABF239E1CB5009815AC /* Info.plist */,
+				D0C33AC0239E1CB5009815AC /* main.m */,
+			);
+			path = WZTabbar;
+			sourceTree = "<group>";
+		};
+		D0C33AC9239E1CB5009815AC /* WZTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C33ACA239E1CB5009815AC /* WZTabbarTests.m */,
+				D0C33ACC239E1CB5009815AC /* Info.plist */,
+			);
+			path = WZTabbarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C33AAA239E1CB4009815AC /* WZTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C33ACF239E1CB5009815AC /* Build configuration list for PBXNativeTarget "WZTabbar" */;
+			buildPhases = (
+				06F639CC1A23B4C540BF682E /* [CP] Check Pods Manifest.lock */,
+				D0C33AA7239E1CB4009815AC /* Sources */,
+				D0C33AA8239E1CB4009815AC /* Frameworks */,
+				D0C33AA9239E1CB4009815AC /* Resources */,
+				21F7E9822B608DCE23F8ACCA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZTabbar;
+			productName = WZTabbar;
+			productReference = D0C33AAB239E1CB4009815AC /* WZTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C33AC5239E1CB5009815AC /* WZTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C33AD2239E1CB5009815AC /* Build configuration list for PBXNativeTarget "WZTabbarTests" */;
+			buildPhases = (
+				BF93940473FF2BE94890161D /* [CP] Check Pods Manifest.lock */,
+				D0C33AC2239E1CB5009815AC /* Sources */,
+				D0C33AC3239E1CB5009815AC /* Frameworks */,
+				D0C33AC4239E1CB5009815AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C33AC8239E1CB5009815AC /* PBXTargetDependency */,
+			);
+			name = WZTabbarTests;
+			productName = WZTabbarTests;
+			productReference = D0C33AC6239E1CB5009815AC /* WZTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C33AA3239E1CB4009815AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "我主良缘";
+				TargetAttributes = {
+					D0C33AAA239E1CB4009815AC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D0C33AC5239E1CB5009815AC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D0C33AAA239E1CB4009815AC;
+					};
+				};
+			};
+			buildConfigurationList = D0C33AA6239E1CB4009815AC /* Build configuration list for PBXProject "WZTabbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C33AA2239E1CB4009815AC;
+			productRefGroup = D0C33AAC239E1CB4009815AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C33AAA239E1CB4009815AC /* WZTabbar */,
+				D0C33AC5239E1CB5009815AC /* WZTabbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C33AA9239E1CB4009815AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A17C123A1DA1F00346B01 /* tabbar_person.json in Resources */,
+				D03A17BE23A1DA1F00346B01 /* love_img_0.png in Resources */,
+				D03A17C723A1DA1F00346B01 /* find.json in Resources */,
+				D03A17C423A1DA1F00346B01 /* tabbar_search.json in Resources */,
+				D03A17C023A1DA1F00346B01 /* person_img_0.png in Resources */,
+				D03A17BF23A1DA1F00346B01 /* tabbar_love.json in Resources */,
+				D03A17BC23A1DA1F00346B01 /* tabbar_dynamics_img_0.png in Resources */,
+				D03A17C223A1DA1F00346B01 /* mes_img_0.png in Resources */,
+				D0C33ABE239E1CB5009815AC /* LaunchScreen.storyboard in Resources */,
+				D03A17C623A1DA1F00346B01 /* find_img_0.png in Resources */,
+				D03A17BD23A1DA1F00346B01 /* dynamic_img_0.png in Resources */,
+				D03A17C823A1DA1F00346B01 /* tabbar_home_ios.json in Resources */,
+				D03A17BB23A1DA1F00346B01 /* tabbar_community.json in Resources */,
+				D03A17C523A1DA1F00346B01 /* search_img_0.png in Resources */,
+				D0C33ABB239E1CB5009815AC /* Assets.xcassets in Resources */,
+				D0C33AB9239E1CB4009815AC /* Main.storyboard in Resources */,
+				D03A17C323A1DA1F00346B01 /* tabbar_mes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C33AC4239E1CB5009815AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F639CC1A23B4C540BF682E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WZTabbar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F7E9822B608DCE23F8ACCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WZTabbar/Pods-WZTabbar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WZTabbar/Pods-WZTabbar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WZTabbar/Pods-WZTabbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF93940473FF2BE94890161D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WZTabbarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C33AA7239E1CB4009815AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C33AB6239E1CB4009815AC /* ViewController.m in Sources */,
+				D0C438A923A9DB6B00D8E148 /* demo1ViewController.m in Sources */,
+				D0C438AC23A9F78500D8E148 /* WZTabBar.m in Sources */,
+				D0C33AB0239E1CB4009815AC /* AppDelegate.m in Sources */,
+				D0C33AC1239E1CB5009815AC /* main.m in Sources */,
+				D0C33AD8239E203A009815AC /* WZTabbarViewController.m in Sources */,
+				D0C33AE7239F42C1009815AC /* WZMessageTabbarItem.m in Sources */,
+				D03A179F23A1D90000346B01 /* UITabBar+WZCustom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C33AC2239E1CB5009815AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C33ACB239E1CB5009815AC /* WZTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C33AC8239E1CB5009815AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C33AAA239E1CB4009815AC /* WZTabbar */;
+			targetProxy = D0C33AC7239E1CB5009815AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0C33AB7239E1CB4009815AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C33AB8239E1CB4009815AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0C33ABC239E1CB5009815AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C33ABD239E1CB5009815AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C33ACD239E1CB5009815AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0C33ACE239E1CB5009815AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C33AD0239E1CB5009815AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8366097EBF56C33B88A343 /* Pods-WZTabbar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA399PG2C9;
+				INFOPLIST_FILE = WZTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzly.new.WZTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C33AD1239E1CB5009815AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FBB3C4A52329008FCCE2B0 /* Pods-WZTabbar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA399PG2C9;
+				INFOPLIST_FILE = WZTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzly.new.WZTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0C33AD3239E1CB5009815AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896DD16897B3B57D87B6EE02 /* Pods-WZTabbarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA399PG2C9;
+				INFOPLIST_FILE = WZTabbarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzly.new.WZTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZTabbar.app/WZTabbar";
+			};
+			name = Debug;
+		};
+		D0C33AD4239E1CB5009815AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E08C9721F1B0CEB59A55CB0 /* Pods-WZTabbarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA399PG2C9;
+				INFOPLIST_FILE = WZTabbarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzly.new.WZTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZTabbar.app/WZTabbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C33AA6239E1CB4009815AC /* Build configuration list for PBXProject "WZTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C33ACD239E1CB5009815AC /* Debug */,
+				D0C33ACE239E1CB5009815AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C33ACF239E1CB5009815AC /* Build configuration list for PBXNativeTarget "WZTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C33AD0239E1CB5009815AC /* Debug */,
+				D0C33AD1239E1CB5009815AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C33AD2239E1CB5009815AC /* Build configuration list for PBXNativeTarget "WZTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C33AD3239E1CB5009815AC /* Debug */,
+				D0C33AD4239E1CB5009815AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C33AA3239E1CB4009815AC /* Project object */;
+}
